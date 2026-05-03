@@ -1,258 +1,258 @@
 [
   {
     "id": "q1",
-    "question": "Which country won the first-ever Cricket World Cup in 1975?",
-    "options": ["Australia", "England", "West Indies", "India"],
-    "correctIndex": 2,
-    "explanation": "West Indies won the inaugural Cricket World Cup held in England in 1975.",
+    "question": "Which team has won the most IPL titles?",
+    "options": ["Chennai Super Kings", "Mumbai Indians", "Kolkata Knight Riders", "Royal Challengers Bengaluru"],
+    "correctIndex": 1,
+    "explanation": "Mumbai Indians have won 5 IPL titles (2013, 2015, 2017, 2019, 2020), the most by any franchise.",
     "difficulty": "easy"
   },
   {
     "id": "q2",
-    "question": "What is the maximum number of overs in a T20 innings?",
-    "options": ["15", "20", "25", "50"],
+    "question": "Who is the all-time highest run scorer in IPL history?",
+    "options": ["Rohit Sharma", "Virat Kohli", "Suresh Raina", "David Warner"],
     "correctIndex": 1,
-    "explanation": "T20 stands for Twenty20, meaning each team bats for a maximum of 20 overs.",
+    "explanation": "Virat Kohli holds the record for the most runs scored in IPL history with over 8,000 runs.",
     "difficulty": "easy"
   },
   {
     "id": "q3",
-    "question": "Who holds the record for the highest individual score in ODI cricket?",
-    "options": ["Sachin Tendulkar", "Rohit Sharma", "Martin Guptill", "Chris Gayle"],
-    "correctIndex": 1,
-    "explanation": "Rohit Sharma holds the record with 264 runs against Sri Lanka in 2014.",
+    "question": "Which bowler has taken the most wickets in IPL history?",
+    "options": ["Lasith Malinga", "Yuzvendra Chahal", "Amit Mishra", "Dwayne Bravo"],
+    "correctIndex": 0,
+    "explanation": "Lasith Malinga holds the record with 170 wickets across his IPL career with Mumbai Indians.",
     "difficulty": "medium"
   },
   {
     "id": "q4",
-    "question": "What does 'LBW' stand for in cricket?",
-    "options": ["Left Before Wicket", "Leg Before Wicket", "Left Bat Warning", "Leg Bat Wicket"],
+    "question": "In which year was the first season of IPL held?",
+    "options": ["2007", "2008", "2009", "2010"],
     "correctIndex": 1,
-    "explanation": "LBW stands for Leg Before Wicket, a mode of dismissal.",
+    "explanation": "The inaugural IPL season was held in 2008, won by Rajasthan Royals.",
     "difficulty": "easy"
   },
   {
     "id": "q5",
-    "question": "Which bowler has taken the most wickets in Test cricket history?",
-    "options": ["Shane Warne", "Muttiah Muralitharan", "James Anderson", "Anil Kumble"],
-    "correctIndex": 1,
-    "explanation": "Muttiah Muralitharan holds the record with 800 Test wickets.",
+    "question": "Who scored the fastest century in IPL history?",
+    "options": ["Chris Gayle", "AB de Villiers", "KL Rahul", "David Miller"],
+    "correctIndex": 0,
+    "explanation": "Chris Gayle scored a century in just 30 balls for RCB against Pune Warriors in 2013.",
     "difficulty": "medium"
   },
   {
     "id": "q6",
-    "question": "How many players are on the field for the fielding team?",
-    "options": ["9", "10", "11", "12"],
-    "correctIndex": 2,
-    "explanation": "The fielding team has 11 players on the field.",
-    "difficulty": "easy"
+    "question": "What is the highest individual score in an IPL innings?",
+    "options": ["158*", "175*", "133*", "128*"],
+    "correctIndex": 1,
+    "explanation": "Chris Gayle scored 175* off 66 balls for RCB against Pune Warriors in 2013.",
+    "difficulty": "medium"
   },
   {
     "id": "q7",
-    "question": "What is a 'maiden over' in cricket?",
-    "options": ["An over with 6 wickets", "An over with no runs scored", "An over with only boundaries", "The first over of the match"],
-    "correctIndex": 1,
-    "explanation": "A maiden over is one in which no runs are scored off the bat.",
+    "question": "Which team won the first-ever IPL tournament?",
+    "options": ["Chennai Super Kings", "Mumbai Indians", "Rajasthan Royals", "Deccan Chargers"],
+    "correctIndex": 2,
+    "explanation": "Rajasthan Royals, captained by Shane Warne, won the inaugural IPL in 2008.",
     "difficulty": "easy"
   },
   {
     "id": "q8",
-    "question": "Which ground is known as the 'Home of Cricket'?",
-    "options": ["Eden Gardens", "MCG", "Lord's", "The Oval"],
-    "correctIndex": 2,
-    "explanation": "Lord's Cricket Ground in London is famously known as the Home of Cricket.",
-    "difficulty": "medium"
+    "question": "How many overs does each team bat in a standard IPL match?",
+    "options": ["15", "20", "25", "50"],
+    "correctIndex": 1,
+    "explanation": "IPL follows the T20 format where each team bats for a maximum of 20 overs.",
+    "difficulty": "easy"
   },
   {
     "id": "q9",
-    "question": "What is a 'hat-trick' in cricket?",
-    "options": ["Three catches in a row", "Three sixes in a row", "Three wickets on three consecutive balls", "Three run-outs in an innings"],
+    "question": "Which venue is known as the home ground of CSK?",
+    "options": ["Wankhede Stadium", "Eden Gardens", "MA Chidambaram Stadium", "Chinnaswamy Stadium"],
     "correctIndex": 2,
-    "explanation": "A hat-trick is when a bowler takes three wickets on three consecutive deliveries.",
+    "explanation": "MA Chidambaram Stadium in Chepauk, Chennai is the home ground of CSK.",
     "difficulty": "easy"
   },
   {
     "id": "q10",
-    "question": "Who scored the fastest century in ODI cricket?",
-    "options": ["Chris Gayle", "AB de Villiers", "Shahid Afridi", "Corey Anderson"],
-    "correctIndex": 1,
-    "explanation": "AB de Villiers scored a century in just 31 balls against the West Indies in 2015.",
+    "question": "Who hit the most sixes in a single IPL season?",
+    "options": ["Chris Gayle", "AB de Villiers", "Andre Russell", "Jos Buttler"],
+    "correctIndex": 0,
+    "explanation": "Chris Gayle hit 59 sixes in IPL 2012, the most in a single season.",
     "difficulty": "hard"
   },
   {
     "id": "q11",
-    "question": "What is the Duckworth-Lewis-Stern (DLS) method used for?",
-    "options": ["Calculating bowling averages", "Determining run rates", "Revising targets in rain-affected matches", "Selecting playing XI"],
+    "question": "Which IPL team is owned by Shah Rukh Khan?",
+    "options": ["Mumbai Indians", "Royal Challengers Bengaluru", "Kolkata Knight Riders", "Delhi Capitals"],
     "correctIndex": 2,
-    "explanation": "DLS is a mathematical formulation to calculate targets in rain-interrupted limited-overs matches.",
-    "difficulty": "medium"
+    "explanation": "Kolkata Knight Riders (KKR) is co-owned by Bollywood superstar Shah Rukh Khan.",
+    "difficulty": "easy"
   },
   {
     "id": "q12",
-    "question": "Which country has won the most Cricket World Cups?",
-    "options": ["India", "West Indies", "Australia", "England"],
-    "correctIndex": 2,
-    "explanation": "Australia has won the Cricket World Cup 6 times.",
+    "question": "What is the 'Impact Player' rule in IPL?",
+    "options": ["A player who bats and bowls", "A substitute player who can replace any squad member during the match", "A player who fields as a substitute", "A player awarded for best performance"],
+    "correctIndex": 1,
+    "explanation": "The Impact Player rule allows teams to substitute a player at any point during the match, effectively using 12 players.",
     "difficulty": "medium"
   },
   {
     "id": "q13",
-    "question": "What does 'DRS' stand for?",
-    "options": ["Direct Review System", "Decision Review System", "Delivery Review System", "Digital Review Standard"],
+    "question": "Which stadium has the smallest boundary in the IPL?",
+    "options": ["Wankhede Stadium", "M. Chinnaswamy Stadium", "Eden Gardens", "Arun Jaitley Stadium"],
     "correctIndex": 1,
-    "explanation": "DRS stands for Decision Review System, used to challenge umpire decisions.",
-    "difficulty": "easy"
+    "explanation": "M. Chinnaswamy Stadium in Bengaluru is known for its short boundaries, making it a batting paradise.",
+    "difficulty": "medium"
   },
   {
     "id": "q14",
-    "question": "How many runs are awarded for hitting the ball over the boundary without bouncing?",
-    "options": ["4", "5", "6", "8"],
-    "correctIndex": 2,
-    "explanation": "A six is awarded when the ball clears the boundary rope without bouncing.",
-    "difficulty": "easy"
+    "question": "Who captained CSK in IPL 2025?",
+    "options": ["MS Dhoni", "Ruturaj Gaikwad", "Ravindra Jadeja", "Faf du Plessis"],
+    "correctIndex": 1,
+    "explanation": "Ruturaj Gaikwad took over as CSK captain, succeeding MS Dhoni.",
+    "difficulty": "medium"
   },
   {
     "id": "q15",
-    "question": "Who is known as the 'God of Cricket'?",
-    "options": ["Virat Kohli", "Sachin Tendulkar", "Brian Lara", "Sir Don Bradman"],
+    "question": "What is the maximum number of overseas players allowed in an IPL playing XI?",
+    "options": ["3", "4", "5", "6"],
     "correctIndex": 1,
-    "explanation": "Sachin Tendulkar is widely known as the 'God of Cricket' for his legendary career.",
+    "explanation": "Each IPL team can field a maximum of 4 overseas (non-Indian) players in the playing XI.",
     "difficulty": "easy"
   },
   {
     "id": "q16",
-    "question": "What is a 'nightwatchman' in cricket?",
-    "options": ["A player who fields at night", "A lower-order batsman sent to bat late in the day", "The umpire who checks the stumps", "A substitute fielder"],
-    "correctIndex": 1,
-    "explanation": "A nightwatchman is a lower-order batsman promoted to protect specialist batsmen near close of play.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q17",
-    "question": "Which batsman scored 400 not out in a Test innings?",
-    "options": ["Sachin Tendulkar", "Matthew Hayden", "Brian Lara", "Virender Sehwag"],
-    "correctIndex": 2,
-    "explanation": "Brian Lara scored an unbeaten 400 against England in 2004, the highest individual Test score.",
+    "question": "Which bowler bowled the most dot balls in IPL 2025?",
+    "options": ["Jasprit Bumrah", "Rashid Khan", "Yuzvendra Chahal", "Mohammed Shami"],
+    "correctIndex": 0,
+    "explanation": "Jasprit Bumrah is known for his exceptional economy rate and bowling the most dot balls.",
     "difficulty": "hard"
   },
   {
+    "id": "q17",
+    "question": "How many teams participate in the IPL?",
+    "options": ["8", "9", "10", "12"],
+    "correctIndex": 2,
+    "explanation": "Since 2022, the IPL has 10 teams after Gujarat Titans and Lucknow Super Giants were added.",
+    "difficulty": "easy"
+  },
+  {
     "id": "q18",
-    "question": "In which year was the first T20 World Cup held?",
-    "options": ["2005", "2007", "2009", "2003"],
+    "question": "Which player has played for only one IPL franchise throughout their career?",
+    "options": ["MS Dhoni", "Virat Kohli", "Rohit Sharma", "Both MS Dhoni and Virat Kohli"],
     "correctIndex": 1,
-    "explanation": "The first ICC World Twenty20 was held in South Africa in 2007, won by India.",
+    "explanation": "Virat Kohli has played for Royal Challengers Bengaluru throughout his entire IPL career since 2008.",
     "difficulty": "medium"
   },
   {
     "id": "q19",
-    "question": "What is a 'googly' in cricket?",
-    "options": ["A fast bouncer", "A leg-spinner's delivery that turns the opposite way", "A type of catch", "A fielding position"],
+    "question": "What is the IPL 'Strategic Timeout'?",
+    "options": ["A drinks break", "A 2.5-minute break taken by each team during the innings", "A timeout called by the umpire", "A penalty break"],
     "correctIndex": 1,
-    "explanation": "A googly is a deceptive delivery bowled by a leg-spinner that turns from off to leg.",
+    "explanation": "Each team gets one strategic timeout of 2.5 minutes per innings, used for tactical discussions.",
     "difficulty": "medium"
   },
   {
     "id": "q20",
-    "question": "Which Indian cricketer is known as 'Captain Cool'?",
-    "options": ["Virat Kohli", "Rohit Sharma", "MS Dhoni", "Sourav Ganguly"],
+    "question": "Which player is known as 'Mr. IPL'?",
+    "options": ["Virat Kohli", "Rohit Sharma", "Suresh Raina", "MS Dhoni"],
     "correctIndex": 2,
-    "explanation": "MS Dhoni is famously known as 'Captain Cool' for his calm demeanor on the field.",
-    "difficulty": "easy"
+    "explanation": "Suresh Raina was called 'Mr. IPL' for his consistent performances, being the first to score 5,000 IPL runs.",
+    "difficulty": "medium"
   },
   {
     "id": "q21",
-    "question": "What is the 'Powerplay' in limited-overs cricket?",
-    "options": ["A time when only spin bowlers can bowl", "Mandatory fielding restrictions in certain overs", "Extra time added for slow over rate", "A penalty for bad behavior"],
+    "question": "What is the Powerplay in IPL?",
+    "options": ["First 4 overs", "First 6 overs", "First 8 overs", "First 10 overs"],
     "correctIndex": 1,
-    "explanation": "The Powerplay is a set of overs with mandatory fielding restrictions, allowing only 2 fielders outside the 30-yard circle.",
-    "difficulty": "medium"
+    "explanation": "In T20/IPL, the Powerplay consists of the first 6 overs with only 2 fielders allowed outside the 30-yard circle.",
+    "difficulty": "easy"
   },
   {
     "id": "q22",
-    "question": "Who bowled the famous 'Ball of the Century'?",
-    "options": ["Glenn McGrath", "Shane Warne", "Wasim Akram", "Curtly Ambrose"],
+    "question": "Which IPL franchise is based in Hyderabad?",
+    "options": ["Gujarat Titans", "Sunrisers Hyderabad", "Delhi Capitals", "Rajasthan Royals"],
     "correctIndex": 1,
-    "explanation": "Shane Warne bowled the 'Ball of the Century' to Mike Gatting in the 1993 Ashes series.",
-    "difficulty": "hard"
+    "explanation": "Sunrisers Hyderabad (SRH) represents the city of Hyderabad in the IPL.",
+    "difficulty": "easy"
   },
   {
     "id": "q23",
-    "question": "How many stumps make up a cricket wicket?",
-    "options": ["2", "3", "4", "5"],
-    "correctIndex": 1,
-    "explanation": "A wicket consists of 3 stumps and 2 bails.",
-    "difficulty": "easy"
+    "question": "What was the highest team total in IPL history?",
+    "options": ["248/3", "263/5", "277/3", "287/3"],
+    "correctIndex": 2,
+    "explanation": "SRH scored 277/3 against Mumbai Indians in IPL 2024, the highest team total in IPL history.",
+    "difficulty": "hard"
   },
   {
     "id": "q24",
-    "question": "What is the distance between the two sets of stumps on a cricket pitch?",
-    "options": ["18 yards", "20 yards", "22 yards", "24 yards"],
-    "correctIndex": 2,
-    "explanation": "The cricket pitch is 22 yards (20.12 meters) long.",
-    "difficulty": "medium"
+    "question": "Who holds the Purple Cap record for most wickets in a single IPL season?",
+    "options": ["Dwayne Bravo", "Harshal Patel", "Yuzvendra Chahal", "Kagiso Rabada"],
+    "correctIndex": 1,
+    "explanation": "Harshal Patel took 32 wickets in IPL 2021, the most by any bowler in a single season.",
+    "difficulty": "hard"
   },
   {
     "id": "q25",
-    "question": "Which bowler holds the record for the best bowling figures in an ODI innings?",
-    "options": ["Chaminda Vaas", "Glenn McGrath", "Muttiah Muralitharan", "Stuart Broad"],
-    "correctIndex": 0,
-    "explanation": "Chaminda Vaas took 8 wickets for 19 runs against Zimbabwe in 2001.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q26",
-    "question": "What is a 'free hit' in cricket?",
-    "options": ["A delivery after a wide", "A delivery after a no-ball where the batsman cannot be bowled or LBW", "An extra delivery at the end of an over", "A ball that doesn't count"],
-    "correctIndex": 1,
-    "explanation": "A free hit is awarded after a no-ball, and the batsman cannot be dismissed in most ways.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q27",
-    "question": "Which country introduced the concept of T20 cricket?",
-    "options": ["Australia", "India", "England", "South Africa"],
+    "question": "What does the 'Orange Cap' signify in IPL?",
+    "options": ["Best bowler", "Best fielder", "Highest run scorer", "Best all-rounder"],
     "correctIndex": 2,
-    "explanation": "England's ECB introduced T20 cricket in 2003.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q28",
-    "question": "What does 'mankading' refer to?",
-    "options": ["A type of bowling action", "Running out the non-striker before delivery", "A batting technique", "A fielding strategy"],
-    "correctIndex": 1,
-    "explanation": "Mankading is when the bowler runs out the non-striker for backing up too far, named after Vinoo Mankad.",
-    "difficulty": "hard"
-  },
-  {
-    "id": "q29",
-    "question": "Who has scored the most runs in T20 International cricket?",
-    "options": ["Virat Kohli", "Rohit Sharma", "Babar Azam", "Martin Guptill"],
-    "correctIndex": 1,
-    "explanation": "Rohit Sharma holds the record for most runs in T20Is.",
-    "difficulty": "medium"
-  },
-  {
-    "id": "q30",
-    "question": "What is the term for when a batsman scores zero runs?",
-    "options": ["Null", "Zero", "Duck", "Blank"],
-    "correctIndex": 2,
-    "explanation": "A 'duck' means the batsman was dismissed without scoring any runs.",
+    "explanation": "The Orange Cap is awarded to the leading run-scorer in each IPL season.",
     "difficulty": "easy"
   },
   {
-    "id": "q31",
-    "question": "Which team scored 481/6 — the highest total in ODI history?",
-    "options": ["Australia", "England", "India", "South Africa"],
-    "correctIndex": 1,
-    "explanation": "England scored 481/6 against Australia in 2022, the highest ODI total.",
+    "id": "q26",
+    "question": "Which player hit 6 sixes in an over in the IPL?",
+    "options": ["Yuvraj Singh", "Chris Gayle", "No one has done it", "Sunil Narine"],
+    "correctIndex": 2,
+    "explanation": "No player has hit 6 sixes in a single over in IPL history, although it has been done in international cricket.",
     "difficulty": "hard"
   },
   {
-    "id": "q32",
-    "question": "What is the 'silly point' in cricket?",
-    "options": ["A penalty area", "A close-in fielding position", "A type of delivery", "A batting stance"],
+    "id": "q27",
+    "question": "Which IPL team's home ground is Eden Gardens?",
+    "options": ["Rajasthan Royals", "Kolkata Knight Riders", "Mumbai Indians", "Delhi Capitals"],
     "correctIndex": 1,
-    "explanation": "Silly point is a close fielding position on the off side, very near the batsman.",
+    "explanation": "Eden Gardens in Kolkata is the iconic home ground of Kolkata Knight Riders.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q28",
+    "question": "How many matches does each team play in the IPL league stage?",
+    "options": ["10", "12", "14", "16"],
+    "correctIndex": 2,
+    "explanation": "Each of the 10 teams plays 14 matches in the league stage of the IPL.",
     "difficulty": "medium"
+  },
+  {
+    "id": "q29",
+    "question": "Who is the current captain of Mumbai Indians in IPL 2026?",
+    "options": ["Rohit Sharma", "Hardik Pandya", "Jasprit Bumrah", "Suryakumar Yadav"],
+    "correctIndex": 0,
+    "explanation": "Rohit Sharma leads the Mumbai Indians in IPL 2026.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q30",
+    "question": "What happens in an IPL 'Super Over'?",
+    "options": ["Extra 5 overs are played", "Each team bats 1 over to decide the winner", "The match is declared a draw", "Boundary count decides"],
+    "correctIndex": 1,
+    "explanation": "In a Super Over, each team bats for 1 over and the team scoring more runs wins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q31",
+    "question": "Which player won the IPL 2024 finals for KKR with a brilliant all-round show?",
+    "options": ["Andre Russell", "Sunil Narine", "Mitchell Starc", "Venkatesh Iyer"],
+    "correctIndex": 1,
+    "explanation": "Sunil Narine was instrumental in KKR's IPL 2024 title win with key contributions in batting and bowling.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q32",
+    "question": "What is Jasprit Bumrah's trademark delivery?",
+    "options": ["Googly", "Doosra", "Yorker", "Bouncer"],
+    "correctIndex": 2,
+    "explanation": "Jasprit Bumrah is famous for his pin-point yorkers, especially in the death overs.",
+    "difficulty": "easy"
   }
 ]

@@ -10,43 +10,57 @@ class PollService {
   static final List<Poll> _mockPolls = [
     Poll(
       id: 'poll1',
-      question: 'Will this over go for 10+ runs?',
-      options: ['Yes', 'No'],
-      votes: {'Yes': 142, 'No': 218},
-      createdAt: DateTime.now().subtract(const Duration(minutes: 5)),
+      question: 'Will MI chase 186 against CSK tonight?',
+      options: ['Yes, MI will win', 'No, CSK will defend'],
+      votes: {'Yes, MI will win': 342, 'No, CSK will defend': 278},
+      createdAt: DateTime.now().subtract(const Duration(minutes: 10)),
       matchId: 'm1',
     ),
     Poll(
       id: 'poll2',
-      question: 'Who will score the next boundary?',
-      options: ['S. Smith', 'G. Maxwell', 'Neither'],
-      votes: {'S. Smith': 87, 'G. Maxwell': 134, 'Neither': 45},
-      createdAt: DateTime.now().subtract(const Duration(minutes: 2)),
+      question: 'Who will score more tonight — SKY or Ruturaj?',
+      options: ['Suryakumar Yadav', 'Ruturaj Gaikwad'],
+      votes: {'Suryakumar Yadav': 487, 'Ruturaj Gaikwad': 334},
+      createdAt: DateTime.now().subtract(const Duration(minutes: 5)),
       matchId: 'm1',
     ),
     Poll(
       id: 'poll3',
-      question: 'Will Bumrah take a wicket in his next over?',
-      options: ['Yes', 'No'],
-      votes: {'Yes': 312, 'No': 178},
-      createdAt: DateTime.now().subtract(const Duration(minutes: 1)),
+      question: 'Will Bumrah take 3+ wickets in this match?',
+      options: ['Yes 🔥', 'No'],
+      votes: {'Yes 🔥': 512, 'No': 198},
+      createdAt: DateTime.now().subtract(const Duration(minutes: 3)),
       matchId: 'm1',
     ),
     Poll(
       id: 'poll4',
-      question: 'What will be the total score of this innings?',
-      options: ['Under 160', '160-180', '180-200', 'Over 200'],
-      votes: {'Under 160': 56, '160-180': 123, '180-200': 198, 'Over 200': 89},
-      createdAt: DateTime.now(),
-      matchId: 'm1',
+      question: 'Predict KKR\'s final score chasing 211 vs RCB',
+      options: ['Under 180', '180-200', '200-210', 'Chase it down!'],
+      votes: {'Under 180': 89, '180-200': 156, '200-210': 234, 'Chase it down!': 312},
+      createdAt: DateTime.now().subtract(const Duration(minutes: 1)),
+      matchId: 'm2',
     ),
     Poll(
       id: 'poll5',
-      question: 'Will Pakistan chase the target?',
-      options: ['Yes, easily', 'Yes, close match', 'No'],
-      votes: {'Yes, easily': 34, 'Yes, close match': 167, 'No': 245},
+      question: 'Who will win the Orange Cap in IPL 2026?',
+      options: ['Virat Kohli', 'Rohit Sharma', 'Suryakumar Yadav', 'Ruturaj Gaikwad'],
+      votes: {'Virat Kohli': 623, 'Rohit Sharma': 412, 'Suryakumar Yadav': 534, 'Ruturaj Gaikwad': 287},
+      createdAt: DateTime.now(),
+    ),
+    Poll(
+      id: 'poll6',
+      question: 'Will Narine smash a 50 in the powerplay today?',
+      options: ['Yes, easy!', 'No chance', 'He\'ll get close'],
+      votes: {'Yes, easy!': 245, 'No chance': 167, 'He\'ll get close': 312},
       createdAt: DateTime.now(),
       matchId: 'm2',
+    ),
+    Poll(
+      id: 'poll7',
+      question: 'Which team will finish at the top of the IPL 2026 table?',
+      options: ['MI', 'CSK', 'RCB', 'KKR', 'Other'],
+      votes: {'MI': 345, 'CSK': 298, 'RCB': 267, 'KKR': 234, 'Other': 156},
+      createdAt: DateTime.now(),
     ),
   ];
 
@@ -58,7 +72,6 @@ class PollService {
       for (int i = 0; i < _mockPolls.length; i++) {
         final poll = _mockPolls[i];
         final newVotes = Map<String, int>.from(poll.votes);
-        // Randomly add votes to simulate real-time
         final optionIndex = _rand.nextInt(poll.options.length);
         final option = poll.options[optionIndex];
         newVotes[option] = (newVotes[option] ?? 0) + _rand.nextInt(5) + 1;
